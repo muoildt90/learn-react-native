@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/thangmuoi/AwesomeProject/android/app/src/main/assets"/><source path="/home/thangmuoi/AwesomeProject/android/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/thangmuoi/AwesomeProject/android/app/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/thangld/learn-react-native/android/app/src/main/assets"/><source path="/home/thangld/learn-react-native/android/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/thangld/learn-react-native/android/app/src/debug/assets"/></dataSet></merger>

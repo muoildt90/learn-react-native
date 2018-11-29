@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/thangmuoi/AwesomeProject/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml",
+            "outputFile": "/home/thangld/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml",
             "map": [
                 {
-                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/43976c33fe4241b4fdc1b766cd0d096c/res/values-et/values-et.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,222,329,440,526,628,745,825,903,986,1097,1202,1301,1411,1512,1615,1781,1883",
-                        "endColumns": "116,106,110,85,101,116,79,77,82,110,104,98,109,100,102,165,101,81",
-                        "endOffsets": "217,324,435,521,623,740,820,898,981,1092,1197,1296,1406,1507,1610,1776,1878,1960"
-                    }
-                },
-                {
-                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/res/values-et/values-et.xml",
+                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dc2274d4524f5d1931d4308c2d313840/res/values-et/values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1965",
                         "endColumns": "100",
                         "endOffsets": "2061"
+                    }
+                },
+                {
+                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ff8efc0b5eb269f488b803f74a76e2ba/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,329,440,526,628,745,825,903,986,1097,1202,1301,1411,1512,1615,1781,1883",
+                        "endColumns": "116,106,110,85,101,116,79,77,82,110,104,98,109,100,102,165,101,81",
+                        "endOffsets": "217,324,435,521,623,740,820,898,981,1092,1197,1296,1406,1507,1610,1776,1878,1960"
                     }
                 }
             ]

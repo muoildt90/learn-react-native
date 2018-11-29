@@ -15,6 +15,7 @@ import {
   TextInput,
   Button
 } from 'react-native';
+import ListItem from './src/components/ListItem/ListItem';
 
 export default class App extends Component<Props> {
   state = {
@@ -37,7 +38,7 @@ export default class App extends Component<Props> {
     });
   };
   render() {
-    const placeOutPut = this.state.places.map((place, i) => (<Text key={i}>{place}</Text>));
+    const placeOutPut = this.state.places.map((place, i) => (<ListItem key={i} placeName={place}/>));
     return (
       <View style={styles.container}>
         <View style={styles.inputContent}>
@@ -49,7 +50,7 @@ export default class App extends Component<Props> {
           />
           <Button title="add" style={styles.placeButton} onPress={this.placeSubmitHanler}/>
         </View>
-        <View>{placeOutPut}</View>
+        <View style={styles.listContainer}>{placeOutPut}</View>
       </View>
     );
   }
@@ -74,5 +75,8 @@ const styles = StyleSheet.create({
   },
   placeButton: {
     width: '30%'
+  },
+  listContainer: {
+    width:'100%'
   }
 });

@@ -1,153 +1,153 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [com.facebook.react:react-native:0.57.5] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/43f5b4ef8de6e2ed9314be438c914b9e/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/43976c33fe4241b4fdc1b766cd0d096c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4d036d385367582193f8f61c243cc663/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/74ca202a2170270700b2f49938be6ca1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/abf34b079299060c72caad90c2085662/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/fb1b877241da620885c497a3bb0e3b48/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/64e380068b4e7dc722aea848068f9237/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/7567e5e061d3a4fe6e3b34d7b32b84bf/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/74f5fd2eda268694ecd49c967fc4c358/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/5c2eea5a0d33fcd606cca108a4047d1d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/5b8b629d8f4fe085cd9a09d5e747a161/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/2065cf11777ee7a8697fb1dd3fa32241/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/b8d5ebe1ebec74b07cd545379c9a61da/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r174650] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/94e78f06ea005a5dc7c7529cd81d6251/AndroidManifest.xml:1:1-3:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f5c3101fc5a3908df1686267daa8650c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/afaf3262946dd5fcde0d984c86b69fbd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a45000748f7562a6ab50fa28421e8f73/AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c36d5611e291573928aeaeb9ad8b095b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8ef12d93a65660626c4a28ce32ac6131/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.57.5] /home/thangld/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/046d9c037cd4942c886d03215d63b54a/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ff8efc0b5eb269f488b803f74a76e2ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/65f08d003229844868d10f881ade4fd9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9ad6740e17e2c9abeb2b10ea28f6b80b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c58325d43ad69e1d38a5114e545b3e72/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/23f5794e2ae314d7d8a2384b92fc3ce8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/68bdf9f1b1101e1b2e02d272b7a89f16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dc2274d4524f5d1931d4308c2d313840/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/d201682d76d2e7803aef284b09ccd0b9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/99472355ef9dc6838ec024b83e52a968/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/7436715ccb378639974d76be49e8e212/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/e5c230e7052493aaf1f33ed33dd35cc5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e437e10c95b26ccd8007f5a8d094003d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f627059ecb0f0d42fdd576d42423f7e4/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /home/thangld/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c53182693273bcb74fd8bb410566600e/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9bab02f83305fb4176c339e71915fa52/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3cb484927763e10ff288763dbd406a84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/bec076ae9ee51bbab956fdd29985c470/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c4653f50b94afc3752b19d644ddf8940/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b8b3aba1acfc4408548b261020780c45/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:2:5-33
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:2:5-33
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.5] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/43f5b4ef8de6e2ed9314be438c914b9e/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.5] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/43f5b4ef8de6e2ed9314be438c914b9e/AndroidManifest.xml:11:5-78
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.5] /home/thangld/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/046d9c037cd4942c886d03215d63b54a/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.5] /home/thangld/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/046d9c037cd4942c886d03215d63b54a/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.57.5] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/43f5b4ef8de6e2ed9314be438c914b9e/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.5] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/43f5b4ef8de6e2ed9314be438c914b9e/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/b8d5ebe1ebec74b07cd545379c9a61da/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/b8d5ebe1ebec74b07cd545379c9a61da/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/94e78f06ea005a5dc7c7529cd81d6251/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/94e78f06ea005a5dc7c7529cd81d6251/AndroidManifest.xml:2:3-17
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.5] /home/thangld/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/046d9c037cd4942c886d03215d63b54a/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.5] /home/thangld/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/046d9c037cd4942c886d03215d63b54a/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f627059ecb0f0d42fdd576d42423f7e4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f627059ecb0f0d42fdd576d42423f7e4/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /home/thangld/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c53182693273bcb74fd8bb410566600e/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/thangld/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c53182693273bcb74fd8bb410566600e/AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.awesomeproject.MainActivity
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.react:react-native:0.57.5] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/43f5b4ef8de6e2ed9314be438c914b9e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.5] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/43f5b4ef8de6e2ed9314be438c914b9e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/43976c33fe4241b4fdc1b766cd0d096c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/43976c33fe4241b4fdc1b766cd0d096c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4d036d385367582193f8f61c243cc663/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4d036d385367582193f8f61c243cc663/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/74ca202a2170270700b2f49938be6ca1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/74ca202a2170270700b2f49938be6ca1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/abf34b079299060c72caad90c2085662/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/abf34b079299060c72caad90c2085662/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/fb1b877241da620885c497a3bb0e3b48/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/fb1b877241da620885c497a3bb0e3b48/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/64e380068b4e7dc722aea848068f9237/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/64e380068b4e7dc722aea848068f9237/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/7567e5e061d3a4fe6e3b34d7b32b84bf/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/7567e5e061d3a4fe6e3b34d7b32b84bf/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/74f5fd2eda268694ecd49c967fc4c358/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/74f5fd2eda268694ecd49c967fc4c358/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/5c2eea5a0d33fcd606cca108a4047d1d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/5c2eea5a0d33fcd606cca108a4047d1d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/5b8b629d8f4fe085cd9a09d5e747a161/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/5b8b629d8f4fe085cd9a09d5e747a161/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/2065cf11777ee7a8697fb1dd3fa32241/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/2065cf11777ee7a8697fb1dd3fa32241/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/b8d5ebe1ebec74b07cd545379c9a61da/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/b8d5ebe1ebec74b07cd545379c9a61da/AndroidManifest.xml:7:5-9:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f5c3101fc5a3908df1686267daa8650c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f5c3101fc5a3908df1686267daa8650c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/afaf3262946dd5fcde0d984c86b69fbd/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/afaf3262946dd5fcde0d984c86b69fbd/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a45000748f7562a6ab50fa28421e8f73/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a45000748f7562a6ab50fa28421e8f73/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c36d5611e291573928aeaeb9ad8b095b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c36d5611e291573928aeaeb9ad8b095b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8ef12d93a65660626c4a28ce32ac6131/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/thangmuoi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8ef12d93a65660626c4a28ce32ac6131/AndroidManifest.xml:20:5-44
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.57.5] /home/thangld/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/046d9c037cd4942c886d03215d63b54a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.5] /home/thangld/.gradle/caches/transforms-1/files-1.1/react-native-0.57.5.aar/046d9c037cd4942c886d03215d63b54a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ff8efc0b5eb269f488b803f74a76e2ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ff8efc0b5eb269f488b803f74a76e2ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/65f08d003229844868d10f881ade4fd9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/65f08d003229844868d10f881ade4fd9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9ad6740e17e2c9abeb2b10ea28f6b80b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9ad6740e17e2c9abeb2b10ea28f6b80b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c58325d43ad69e1d38a5114e545b3e72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c58325d43ad69e1d38a5114e545b3e72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/23f5794e2ae314d7d8a2384b92fc3ce8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/23f5794e2ae314d7d8a2384b92fc3ce8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/68bdf9f1b1101e1b2e02d272b7a89f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/68bdf9f1b1101e1b2e02d272b7a89f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dc2274d4524f5d1931d4308c2d313840/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dc2274d4524f5d1931d4308c2d313840/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/d201682d76d2e7803aef284b09ccd0b9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/d201682d76d2e7803aef284b09ccd0b9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/99472355ef9dc6838ec024b83e52a968/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/99472355ef9dc6838ec024b83e52a968/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/7436715ccb378639974d76be49e8e212/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/7436715ccb378639974d76be49e8e212/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/e5c230e7052493aaf1f33ed33dd35cc5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/e5c230e7052493aaf1f33ed33dd35cc5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e437e10c95b26ccd8007f5a8d094003d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e437e10c95b26ccd8007f5a8d094003d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f627059ecb0f0d42fdd576d42423f7e4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/thangld/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f627059ecb0f0d42fdd576d42423f7e4/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9bab02f83305fb4176c339e71915fa52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9bab02f83305fb4176c339e71915fa52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3cb484927763e10ff288763dbd406a84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3cb484927763e10ff288763dbd406a84/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/bec076ae9ee51bbab956fdd29985c470/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/bec076ae9ee51bbab956fdd29985c470/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c4653f50b94afc3752b19d644ddf8940/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c4653f50b94afc3752b19d644ddf8940/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b8b3aba1acfc4408548b261020780c45/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/thangld/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b8b3aba1acfc4408548b261020780c45/AndroidManifest.xml:20:5-44
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/thangmuoi/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/thangld/learn-react-native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
