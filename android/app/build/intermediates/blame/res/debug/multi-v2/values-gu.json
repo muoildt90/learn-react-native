@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/thangld/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
+            "outputFile": "/home/thangmuoi/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
-                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ff8efc0b5eb269f488b803f74a76e2ba/res/values-gu/values-gu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,318,425,512,613,736,813,891,971,1077,1179,1276,1385,1484,1594,1754,1857",
-                        "endColumns": "108,103,106,86,100,122,76,77,79,105,101,96,108,98,109,159,102,79",
-                        "endOffsets": "209,313,420,507,608,731,808,886,966,1072,1174,1271,1380,1479,1589,1749,1852,1932"
-                    }
-                },
-                {
-                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dc2274d4524f5d1931d4308c2d313840/res/values-gu/values-gu.xml",
+                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1937",
                         "endColumns": "100",
                         "endOffsets": "2033"
+                    }
+                },
+                {
+                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/43976c33fe4241b4fdc1b766cd0d096c/res/values-gu/values-gu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,425,512,613,736,813,891,971,1077,1179,1276,1385,1484,1594,1754,1857",
+                        "endColumns": "108,103,106,86,100,122,76,77,79,105,101,96,108,98,109,159,102,79",
+                        "endOffsets": "209,313,420,507,608,731,808,886,966,1072,1174,1271,1380,1479,1589,1749,1852,1932"
                     }
                 }
             ]

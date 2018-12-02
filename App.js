@@ -10,47 +10,69 @@ import React, {Component} from 'react';
 import {
   Platform,
   StyleSheet,
-  Text,
-  View,
-  TextInput,
-  Button
+  View
 } from 'react-native';
-import ListItem from './src/components/ListItem/ListItem';
 
-export default class App extends Component<Props> {
+
+import PlaceInput from './src/components/PlaceInput/PlaceInput';
+import PlaceList from './src/components/PlaceList/PlaceList';
+import placeImage from './src/assets/dieu.jpg';
+import PlaceDetail from './src/components/PlaceDetail/PlaceDetail';
+
+export default class App extends Component<props> {
   state = {
-    placeName: '',
-    places: []
-  }
-  placeNameChangeHanler = val => {
-    this.setState({
-      placeName: val
-    });
+    places: [],
+    selectedPlace: null
   };
-  placeSubmitHanler = () => {
-    if (this.state.placeName.trim() === "") {
-      return;
-    }
+  placeAddedHanler = placeName => {
     this.setState(prevState => {
       return {
-        places: prevState.places.concat(prevState.placeName)
+        places: prevState.places.concat({
+          key: Math.random(),
+          name: placeName,
+          image: {
+            uri: "https://media.thethao247.vn/upload/thetrung/2018/09/22/quang-hai.jpg"
+          }
+        })
       };
     });
   };
+  placeDeletedHanler = () => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.filter(place => {
+          return place.key !== prevState.selectedPlace.key;
+        }),
+        selectedPlace: null
+      };
+    });
+
+  };
+  modalClosedHanler = () => {
+    this.setState ({
+      selectedPlace: null
+    });
+  };
+  placeSelectedHanler = key => {
+    this.setState (prevState => {
+      return {
+        selectedPlace: prevState.places.find(place => {
+          return place.key === key;
+        })  
+      };
+      
+    });
+  };
   render() {
-    const placeOutPut = this.state.places.map((place, i) => (<ListItem key={i} placeName={place}/>));
+    
     return (
       <View style={styles.container}>
-        <View style={styles.inputContent}>
-          <TextInput
-            style={styles.placeInput}
-            value={this.state.placeName} 
-            placeholder ="please type name"
-            onChangeText={this.placeNameChangeHanler}
-          />
-          <Button title="add" style={styles.placeButton} onPress={this.placeSubmitHanler}/>
-        </View>
-        <View style={styles.listContainer}>{placeOutPut}</View>
+        <PlaceDetail 
+          selectedPlace={this.state.selectedPlace} 
+          onItemDeleted={this.placeDeletedHanler} 
+          onModalClosed={this.modalClosedHanler}/>
+        <PlaceInput onPlaceAdded={this.placeAddedHanler}/>
+        <PlaceList places ={this.state.places} onItemSelected={this.placeSelectedHanler}/>
       </View>
     );
   }
@@ -63,20 +85,5 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  inputContent: {
-    width:'100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems:'center',
-  },
-  placeInput: {
-    width: '70%'
-  },
-  placeButton: {
-    width: '30%'
-  },
-  listContainer: {
-    width:'100%'
   }
 });

@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/thangld/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml",
+            "outputFile": "/home/thangmuoi/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dc2274d4524f5d1931d4308c2d313840/res/values-bn/values-bn.xml",
+                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/43976c33fe4241b4fdc1b766cd0d096c/res/values-bn/values-bn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,326,432,526,631,760,838,916,1003,1113,1221,1320,1430,1536,1649,1814,1919",
+                        "endColumns": "108,111,105,93,104,128,77,77,86,109,107,98,109,105,112,164,104,81",
+                        "endOffsets": "209,321,427,521,626,755,833,911,998,1108,1216,1315,1425,1531,1644,1809,1914,1996"
+                    }
+                },
+                {
+                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "2001",
                         "endColumns": "100",
                         "endOffsets": "2097"
-                    }
-                },
-                {
-                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ff8efc0b5eb269f488b803f74a76e2ba/res/values-bn/values-bn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,326,432,526,631,760,838,916,1003,1113,1221,1320,1430,1536,1649,1814,1919",
-                        "endColumns": "108,111,105,93,104,128,77,77,86,109,107,98,109,105,112,164,104,81",
-                        "endOffsets": "209,321,427,521,626,755,833,911,998,1108,1216,1315,1425,1531,1644,1809,1914,1996"
                     }
                 }
             ]

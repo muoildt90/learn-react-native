@@ -1,4 +1,4 @@
-#Thu Nov 29 09:28:02 ICT 2018
-base.0=/home/thangld/learn-react-native/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Sat Dec 01 13:59:15 ICT 2018
+base.0=/home/thangmuoi/learn-react-native/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/thangld/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
+            "outputFile": "/home/thangmuoi/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
             "map": [
                 {
-                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ff8efc0b5eb269f488b803f74a76e2ba/res/values-km/values-km.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,308,420,507,611,729,806,883,966,1070,1175,1275,1385,1492,1600,1762,1860",
-                        "endColumns": "102,99,111,86,103,117,76,76,82,103,104,99,109,106,107,161,97,82",
-                        "endOffsets": "203,303,415,502,606,724,801,878,961,1065,1170,1270,1380,1487,1595,1757,1855,1938"
-                    }
-                },
-                {
-                    "source": "/home/thangld/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dc2274d4524f5d1931d4308c2d313840/res/values-km/values-km.xml",
+                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/res/values-km/values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1943",
                         "endColumns": "100",
                         "endOffsets": "2039"
+                    }
+                },
+                {
+                    "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/43976c33fe4241b4fdc1b766cd0d096c/res/values-km/values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,308,420,507,611,729,806,883,966,1070,1175,1275,1385,1492,1600,1762,1860",
+                        "endColumns": "102,99,111,86,103,117,76,76,82,103,104,99,109,106,107,161,97,82",
+                        "endOffsets": "203,303,415,502,606,724,801,878,961,1065,1170,1270,1380,1487,1595,1757,1855,1938"
                     }
                 }
             ]
