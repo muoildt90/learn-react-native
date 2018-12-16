@@ -12,67 +12,39 @@ import {
   StyleSheet,
   View
 } from 'react-native';
-
+import { connect } from 'react-redux';
 
 import PlaceInput from './src/components/PlaceInput/PlaceInput';
 import PlaceList from './src/components/PlaceList/PlaceList';
 import placeImage from './src/assets/dieu.jpg';
 import PlaceDetail from './src/components/PlaceDetail/PlaceDetail';
+import {addPlace, deletePlace, selectPlace, deselectPlace} from './src/store/actions/index';
 
-export default class App extends Component<props> {
-  state = {
-    places: [],
-    selectedPlace: null
-  };
+class App extends Component<props> {
   placeAddedHanler = placeName => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.concat({
-          key: Math.random(),
-          name: placeName,
-          image: {
-            uri: "https://media.thethao247.vn/upload/thetrung/2018/09/22/quang-hai.jpg"
-          }
-        })
-      };
-    });
+    this.props.onAddPlace(placeName)
   };
   placeDeletedHanler = () => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.filter(place => {
-          return place.key !== prevState.selectedPlace.key;
-        }),
-        selectedPlace: null
-      };
-    });
+    this.props.onDeletePlace()
 
   };
   modalClosedHanler = () => {
-    this.setState ({
-      selectedPlace: null
-    });
+    this.props.onDeSelectPlace()
   };
   placeSelectedHanler = key => {
-    this.setState (prevState => {
-      return {
-        selectedPlace: prevState.places.find(place => {
-          return place.key === key;
-        })  
-      };
-      
-    });
+    this.props.onSelectPlace(key)
+   
   };
   render() {
     
     return (
       <View style={styles.container}>
         <PlaceDetail 
-          selectedPlace={this.state.selectedPlace} 
+          selectedPlace={this.props.selectedPlace} 
           onItemDeleted={this.placeDeletedHanler} 
           onModalClosed={this.modalClosedHanler}/>
         <PlaceInput onPlaceAdded={this.placeAddedHanler}/>
-        <PlaceList places ={this.state.places} onItemSelected={this.placeSelectedHanler}/>
+        <PlaceList places ={this.props.places} onItemSelected={this.placeSelectedHanler}/>
       </View>
     );
   }
@@ -87,3 +59,19 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   }
 });
+
+const mapStateToProps = state => {
+  return {
+    places: state.places.places,
+    selectedPlace:  state.places.selectedPlace
+  };
+};
+const mapDispathToProps = dispath => {
+  return {
+    onAddPlace: (name) => dispath(addPlace(name)),
+    onDeletePlace: () => dispath(deletePlace()),
+    onSelectPlace: (key) => dispath(selectPlace(key)),
+    onDeSelectPlace: () => dispath(deselectPlace())
+  };
+};
+export default connect(mapStateToProps, mapDispathToProps)(App);

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/thangmuoi/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
+            "outputFile": "/home/thangmuoi/Desktop/learn-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/home/thangmuoi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/36792d7917eb2f388b425d318dc37e1f/res/values-mr/values-mr.xml",
